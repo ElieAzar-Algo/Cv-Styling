@@ -1,0 +1,198 @@
+
+html{
+    background-color: white;
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+    background-color: grey;
+    max-width: 80%;
+    margin-left: 7%;
+    padding-top:20px;
+    padding-left:100px; 
+    padding-bottom: 80px;
+    height:70px;
+    }
+    hgroup{
+        color:red;
+    }
+    figure{
+      
+        width:10%;
+        position:absolute;
+        top:10px;
+        left:400px;
+           
+      }
+      .content{
+       
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin: 0 auto;
+        width: 80%;
+        
+         }
+         #about{
+           
+             margin-top:50px;
+             margin-right:10px;
+         }
+
+      #competencies{
+             position:grid;
+             border: 1px solid rgba(238, 238, 49, 0);
+             margin-top:50px;
+             margin-left:10px;
+             height:400px;
+      }
+      section h3{font-weight: 1200;}
+      section h3::before{
+        content:"....";
+        color:transparent;
+        border-radius: 70%;
+        margin:5px;
+        height:5px;
+        width:10px;
+        background-color: red;
+    }
+
+
+      .experience-type {
+       
+        font-family:sans-serif;
+        color:red;
+    }
+    .experience-institution::before{
+        content: "@";
+        font-family: Courier;
+        color:red;
+        opacity:80%;
+        font-size:18px;
+    }
+        .experience-location::before{content:"In";}
+        .experience-location::after{content:"on";}
+        .experience-details{opacity:50%;}
+        .experience-date-separator{color:red;}
+        .experience-details{ margin-top:-20px; margin-left: 10px;}
+        .experience-institution{ color:red; font-size: 12px;}
+        .experience{ margin:10px;}
+      /*__skill___________skill_____________skill___________skill____________*/  
+     
+     
+      .skills-primary{margin-bottom: 20px;}
+      .skills-primary::before{content:"Main";}
+      .skills-secondary::before{content:"Other";}
+
+      .skill
+        {
+           background-color: rgb(175, 172, 172);
+           margin:10px;
+           padding: 8px;
+           color:white;
+        }
+       
+        [data-skill="5"] span::after{
+            content:"FFFFFFFFFFFFFFFFFFFFF";
+            color:transparent;
+        }
+        [data-skill="5"] span{
+            color:white;
+            background-color: rgb(255, 0, 0);
+            padding: 3px;
+            
+        }
+
+        [data-skill="1"] span{
+            color:white;
+            background-color: rgb(255, 0, 0);
+            padding: 3px;
+        }
+        
+        [data-skill="9"] span::after{
+            content:"FFFFFFFFFfffffffffffffffffffffffffffffffffffffffffffffffFFFFFFFFFFFF";
+            color:transparent;
+        }
+        [data-skill="9"] span{
+            color:white;
+            background-color: rgb(255, 0, 0);
+            padding: 3px;
+            
+        }
+
+        [data-skill="7"] span::after{
+            content:"FFFFFFFFFfffffffffffffffffFFFFFFFFFFFF";
+            color:transparent;
+        }
+        [data-skill="7"] span{
+            color:white;
+            background-color: rgb(255, 0, 0);
+            padding: 3px;
+            
+        }
+        [data-skill="3"] span::after{
+            content:"FFFFFFFFFFF";
+            color:transparent;
+        }
+        [data-skill="3"] span{
+            color:white;
+            background-color: rgb(255, 0, 0);
+            padding: 3px;
+            
+        }
+        /*_____Contact___________Contact____________contact__________contact______*/
+        #contact h3{display:none;}
+        #contact{
+        position: absolute;
+         top:0;
+         right:0;
+         padding-right:100px;
+         margin-top:40px;
+         
+        }
+
+        .contact{
+
+            height: 25px;;
+            margin:-15px;
+            width:600px;
+            padding:5px;
+            background-color: red;
+            color:white;
+        }
+       .contact-value{
+
+           position: relative;
+           margin-left:130px;
+           margin-top: -23px;
+           padding:6px;
+           background-color: black;
+           height: 24px;
+           width:470px;
+            }
+
+
+            a:link{color:red; text-decoration: none;}
+            .contact-skype .contact-value{color:transparent;}
+            a:active {color:red;}
+            a:visited {color:red; }
+       
+       
+       
+       
+        
+       
+
+
+
+
+
+
+
+
+
+
+
+    
